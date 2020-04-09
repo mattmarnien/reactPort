@@ -12,7 +12,7 @@ function Card({url, image, git, name}) {
                 src={image} />
               <button className="btn-floating halfway-fab waves-effect waves-light light-blue gitButtons"
                 onClick={() => window.open(git, "_blank")} target="_blank"><i className="fab fa-github fa-lg"></i></button>
-              <span className="card-title portCardTitle valign-wrapper flow-text">{name}</span></a>
+              <span className="card-title portCardTitle valign-wrapper flow-text z-depth-3">{name}</span></a>
           </div>
         </div>
       </div>

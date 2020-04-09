@@ -11,13 +11,11 @@
  
 }
 
-
-
 .portCardTitle {
     background-color: #cccbcb;
     height: 50px;
     width: 100%;
-    opacity: 90%;
+    opacity: 90% !important;
     color: black !important;
     text-align: center !important;
 }
