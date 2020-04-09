@@ -17,9 +17,9 @@ function Nav() {
             <div className='col xl2 offset-xl5 l4 offset-l4 m4' id='nameText'>Matthew Marnien</div>
             <div className='right col xl5 l4'>
               <div className="right hide-on-med-and-down right mainNavStuff">
-                <a href={require("../images/Marnien Resume.pdf")} target="_blank"><i className="navIcons fas fa-clone fa-lg"></i> Resume</a>
-                <a href="https://github.com/mattmarnien" target="_blank"><i className="navIcons fab fa-github fa-lg"></i>GitHub</a>
-                <a href="https://www.linkedin.com/in/matthew-marnien-0a394239/" target="_blank"><i
+                <a href={require("../images/Marnien Resume.pdf")} rel="noopener noreferrer nofollow" target="_blank"><i className="navIcons fas fa-clone fa-lg"></i> Resume</a>
+                <a href="https://github.com/mattmarnien" rel="noopener noreferrer nofollow" target="_blank"><i className="navIcons fab fa-github fa-lg"></i>GitHub</a>
+                <a href="https://www.linkedin.com/in/matthew-marnien-0a394239/"  rel="noopener noreferrer nofollow" target="_blank"><i
                   className="navIcons fab fa-linkedin fa-lg"></i> LinkedIn</a>
               </div>
             </div>
@@ -33,9 +33,9 @@ function Nav() {
         </div>
       </nav>
       <ul className="sidenav grey lighten-3" id="mobileNavBar">
-        <li><a href={require("../images/Marnien Resume.pdf")} target="_blank"><i className="fas fa-clone fa-2x"></i>Resume</a></li>
-        <li><a href="https://github.com/mattmarnien" target="_blank"><i className="fab fa-github fa-2x"></i>GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/matthew-marnien-0a394239/" target="_blank"><i
+        <li><a href={require("../images/Marnien Resume.pdf")} rel="noopener noreferrer nofollow" target="_blank"><i className="fas fa-clone fa-2x"></i>Resume</a></li>
+        <li><a href="https://github.com/mattmarnien" rel="noopener noreferrer nofollow" target="_blank"><i className="fab fa-github fa-2x"></i>GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/matthew-marnien-0a394239/" rel="noopener noreferrer nofollow" target="_blank"><i
           className="fab fa-linkedin fa-2x"></i>LinkedIn</a></li>
         <hr />
         <li> Contact Information:</li>
