@@ -1,0 +1,19 @@
+.bioText {
+    padding: 10px;
+}
+.bioCard {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#myImage {
+    margin-top: 25px;
+    height:250px;
+    width: 200px;
+
+}

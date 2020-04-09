@@ -1,0 +1,23 @@
+.portCard {
+    width: auto;
+    height: 250px;
+}
+ 
+
+.portImage {
+    width: auto;
+    height: 250px;
+    border-radius: 50%;
+ 
+}
+
+
+
+.portCardTitle {
+    background-color: #cccbcb;
+    height: 50px;
+    width: 100%;
+    opacity: 90%;
+    color: black !important;
+    text-align: center !important;
+}
